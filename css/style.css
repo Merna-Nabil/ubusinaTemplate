@@ -1,0 +1,477 @@
+*
+{
+  padding:0;
+  margin:0;
+ scroll-behavior:smooth;
+ font-family:'Roboto';
+}
+.clear-fix
+{
+  clear:both;
+}
+/* start section navbar*/
+.navbar-default 
+{
+ background-color:#ffffff;
+ height:100px;
+ width:100%;
+ position:fixed;
+ z-index:999999;
+
+}
+.navbar-brand img
+{
+ margin-top:-20px;
+}
+.navbar-nav > li > a  
+{
+ line-height:60px;
+ background:#fff;
+ cursor: pointer;
+
+}
+.collapse ul
+{
+ float:right;
+}
+.navbar-default .navbar-nav > li > a 
+{
+ color:black;
+ font-size:18px;
+ z-index:999999;
+ font-weight:bolder;
+ -webkit-transition:all .5s ease-in-out;
+ -o-transition:all .5s ease-in-out;
+ -moz-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;
+}
+.navbar-default .navbar-nav > li > a:hover
+,.navbar-default .navbar-nav > li > a:active
+
+{
+ color:dodgerblue;
+ background-color:#fff;
+ -webkit-transition:all .5s ease-in-out;
+ -o-transition:all .5s ease-in-out;
+ -moz-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;
+
+}
+
+/* end section navbar*/
+
+/*start slideshow*/
+.carousel-inner
+{
+	margin-top:100px;
+}
+.carousel-inner>.item>img
+{
+ max-width:100%;
+
+}
+
+.item h2
+{
+text-align:left;
+font-size:90px;
+}
+.item p
+{
+ font-size:25px;
+text-align:left;
+}
+.item .btn1
+{
+ width:200px;
+ height:50px;
+ background-color:dodgerblue;
+ color:#FFF;
+ border:none;
+ float:left;
+ -webkit-transition:all .5s ease-in-out;
+ -o-transition:all .5s ease-in-out;
+ -moz-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;
+}
+.item .btn1:hover
+{
+    background-color:#333;
+ 
+}
+
+/*end slideshow*/
+/*start about us*/
+.myabout 
+{
+ min-height:800px;  
+}
+.myabout .about 
+{
+ font-size:100px;
+ color:dodgerblue;
+ margin-bottom:30px;
+}
+.myabout p
+{
+ margin-bottom:20px;
+ color:grey;
+ font-size:20px;
+}
+
+
+.myabout .aboutus img
+{
+ border:2px solid #fff;
+ 
+}
+
+.myabout .aboutdetails
+{
+ width:360px;
+ background-color:#222;
+ margin-top:-20px;
+ -webkit-transition:all .5s ease-in-out;
+ -o-transition:all .5s ease-in-out;
+ -moz-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;
+}
+
+.hexagon {
+  width: 80px;
+  height: 35px;
+  position: relative;
+  margin:auto;
+  margin-top:-30px;
+}
+
+.hexagon, 
+.hexagon:before, 
+.hexagon:after {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);   
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  left: 22px;
+  width: 57px;
+  height: 57px;
+  transform: rotate(145deg) skew(22.5deg);
+}
+
+.hexagon:before {
+  top: -29px;
+}
+
+.hexagon:after {
+  top: 27px;
+}
+
+.hexagon span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 55px;
+  background: #FFF;
+  z-index: 3;
+  line-height:55px;
+  text-align:center;
+  font-size:50px;
+  font-weight: bold;
+  -webkit-transition:all .5s ease-in-out;
+ -o-transition:all .5s ease-in-out;
+ -moz-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;
+
+}
+
+.myabout .aboutdetails h3
+{
+ color:#FFF;
+ margin-top:20px;
+ padding-top:80px;
+}
+.myabout .aboutdetails p 
+{
+ color:#fff;
+ padding:0 20px 20px;
+
+}
+/*end about us*/
+
+/*start our services*/
+.our-services
+{
+	min-height:400px;
+	padding-top:30px;
+	padding-bottom:30px;
+	background:url("../images/pattern.jpg") no-repeat center center;
+	-webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+      background-size:cover;
+}
+.our-services h2
+{
+	font-weight:bold;
+	font-size:90px;
+	color:#fff;
+	margin-bottom:10px;
+}
+.our-services p
+{
+	color:#fff;
+	font-size:20px;
+	margin-bottom:50px;
+}
+.our-services .imgg
+{
+	margin-bottom:30px;
+}
+/*end our services*/
+
+/*start our team*/
+.our-team
+{
+  min-height:600px;
+  padding-top:50px;
+  padding-bottom:30px;
+}
+.our-team h2
+{
+  font-size:100px;
+  color:dodgerblue;
+}
+.our-team .pp
+{
+  color:grey;
+  font-size:20px;
+  margin-bottom:20px;
+}
+.our-team .infoimg
+{
+  background-color:dodgerblue;
+  min-width:195px;
+  min-height:195px;
+  padding:10px;
+}
+.our-team .team-info .infoimg
+{
+  -webkit-transition:all .5s ease-in-out;
+ -o-transition:all .5s ease-in-out;
+ -moz-transition:all .5s ease-in-out;
+ transition:all .5s ease-in-out;
+}
+.our-team .team-info img
+{
+  min-width:195px;
+  min-height:205px;
+
+}
+.our-team .infoimg h3
+{
+color:#fff;
+}
+.our-team .infoimg p
+{
+  color:#fff;
+}
+/*  end our team*/
+
+/*start contact us*/
+.contact-us
+{
+  min-height:600px;
+  background:url("../images/map.png")no-repeat center center;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+  background-size:cover; 
+}
+.contact-us .opacity
+{
+   min-height:600px;
+  background:rgba(2,2,2,.8);
+}
+.contact-us .heding
+{
+    margin-top:100px;
+}
+.contact-us .heding h1
+{
+  color:#fff;
+  padding-top:30px;
+  font-size:80px;
+  background-color:dodgerblue;
+
+}
+
+.contact-us .our-contact
+{
+  z-index:9999;
+  min-height:500px;
+  background-color:dodgerblue;
+  margin-bottom:30px;
+  margin-top:-10px;
+  padding-left:40px;
+}
+.contact-us .our-contact h4
+{
+  color:#fff;
+  margin-bottom:20px;
+}
+.contact-us .our-contact hr
+{
+  width:400px;
+  float:left;
+  margin-top:-10px;
+
+}
+.contact-us .our-contact i
+{
+  color:#fff;
+  margin-bottom:20px;
+}
+.contact-us .our-contact i > span
+{
+  margin-left:20px;
+  font-weight:bold;
+  color:#fff;
+}
+.contact-us .our-contact input
+{
+  min-width:500px;
+  margin-bottom:20px;
+  height:40px;
+  border:0;
+  padding-left:10px;
+}
+.contact-us .our-contact textarea
+{
+  min-width:500px;
+  height:150px;
+  margin-bottom:20px;
+  padding-left:10px;
+
+}
+.contact-us .our-contact input[type="submit"]
+{
+  min-width:150px;
+  margin-right:30px;
+  float:right;
+  background:url("../images/btn-bg.jpg");
+  color:#fff;
+
+}
+/*  end contact us*/
+
+/* media query*/
+@media (min-width: 480px) and (max-width: 767px) {
+  .navbar-default .navbar-collapse
+  {
+    margin-top:50px;
+
+  }
+  .navbar-default .navbar-nav > li 
+  {
+    margin-top:-8px;
+
+
+  }
+  .navbar-default .navbar-nav > li >a
+  {
+    min-width:467px;
+
+  }
+  .item h2
+  {
+    margin-bottom:-40px;
+    font-size:30px;
+    font-weight:bold;
+  }
+  .item p
+  {
+     margin-top:40px;
+     font-size:16px;
+     font-weight:bold;
+  }
+  .item .btn1
+  {
+     width:100px;
+     height:25px;
+     font-size:10px;
+  }
+.myabout
+  {
+    margin:auto;
+  }
+  .myabout .about
+  {
+    font-size:50px;  
+  }
+  .myabout p 
+  {
+    font-size:17px;
+  }
+  .aboutus
+  {
+   float:right;
+  }
+  .our-services h2, .our-team h2
+  {
+    font-size:50px;
+  }
+  .our-team img
+  {
+    width:453px;
+  }
+  .contact-us .our-contact input[type="text"]
+  {
+    position: relative;
+   min-width:400px;
+  }
+   .contact-us .our-contact textarea
+   {
+    min-width:400px;
+    display:block;
+   }
+   
+   .contact-us .heding h1
+   {
+     font-size:50px;
+   }
+   }
+   @media (min-width: 768px) and (max-width: 991px)
+   {
+    .navbar-default .navbar-nav > li > a
+    {
+      font-size:16px;
+    }
+    .our-team .team-info img
+    {
+      min-width:720px;
+    }
+    .contact-us .our-contact textarea
+    {
+      display:block;
+        }
+    .contact-us .our-contact input[type="submit"]
+    {
+      margin-right:195px;
+    }
+   }
+   @media (min-width: 992px) and (max-width: 1199px)
+   {
+    .contact-us .our-contact input[type="text"]
+    {
+      min-width:400px;
+    }
+    .contact-us .our-contact textarea
+    {
+      min-width:400px;
+    }
+   }
